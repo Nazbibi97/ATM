@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="atm"  class="atm">
+<img src="assets\th-removebg-preview.png" alt="">
+    <h1>Qatar Islamic Bank</h1>
+    <input type="number">
+    <button id="Procces" onclick="contiProccess()">Proccess</button>
+    
+   </div>
+   <div id="enterAmout" class="digits atm" >
+    <img src="assets\th-removebg-preview.png" alt="">
+    <h1>Qatar Islamic Bank</h1>
+    <h6>Enter Your Amount</h6>
+   <input type="number " id="numb" onclick="digit()">
+  <button onclick="one()">1</button>
+  <button onclick="two()">2</button>
+  <button onclick="three()">3</button>
+  <button onclick="four()">4</button>
+  <button onclick="five()">5</button>
+  <button onclick="six()">6</button>
+  <button onclick="seveven()">7</button>
+  <button onclick="eight()">8</button>
+  <button onclick="nine()">9</button>
+  <button onclick="zero()">0</button>
+  <button onclick="x()">x</button>
+   <button class="Procces" id="Procces" onclick="contiProccessTo()">Proccess</button>
+</div>
+
+<div id="but" class= "buttons atm">
+    <img src="assets\th-removebg-preview.png" alt="">
+    <h1>Qatar Islamic Bank</h1>
+    <button onclick="withdraw()">WithDraw</button>
+    <button onclick="deposite()">deposite</button></div>
+    
+    <div id="withdraw" class="withdrawAmount atm" >
+        img src="assets\th-removebg-preview.png" alt="">
+    <h1>Qatar Islamic Bank</h1>
+    </div>
+    <div id="deposie" class="depositeAmount atm" onclick="deposie()">
+        img src="assets\th-removebg-preview.png" alt="">
+        <h1>Qatar Islamic Bank</h1>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

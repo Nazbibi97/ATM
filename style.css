@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.atm{
+    max-width: 500px;
+    min-height:600px ;
+    /* border: azure; */
+   background: linear-gradient(azure,azure,rgba(0, 0, 255, 0.664));
+    /* border: 2px solid blue; */
+    color: rgba(165, 42, 42, 0.808);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 4em;
+    padding: 4em;
+}
+p{
+    font-size: 1.5em;
+}
+button {
+    width: 100px;
+    height: 50px;
+    border: 8px solid rgba(165, 42, 42, 0.596);
+    border: 8px solid rgb(3, 3, 105);
+    /* background-color: rgba(0, 0, 255, 0.664); */
+    background: radial-gradient(circle, whitesmoke, azure 80% );
+      padding: 3px;
+    font-size: 1.2em;
+    border-radius: 10px;
+
+
+
+}
+img{
+   
+    width: 200px;
+}
+.digits{
+    max-width: 500px;
+    min-height:600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+    
+}
+#enterAmout, #but, #withdraw, #deposie{
+    display: none;
+}
+input{
+width: 400px;
+height: 40px;
+border: 0;
+background-color: rgb(3, 3, 105);
+font-weight: bold;
+font-size: 1em;
+color: azure;
+border-radius: 10px;
+display: block;
+}
+.digits button{
+    width: 50px;
+    border-radius: 50%;
+    border: 8px solid rgb(3, 3, 105);
+  /* background-color: rgba(0, 0, 255, 0.664); */
+  background: radial-gradient(circle, whitesmoke, azure 80% );
+    padding: 3px;
+    font-size: 1.2em;
+    margin: 1.5em;
+    
+}
+.digits #Procces{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0.2em;
+    margin-left: 5em;
+    margin-right: 0.2em;
+
+}
